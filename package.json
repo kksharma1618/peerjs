@@ -1,15 +1,15 @@
 {
-  "name": "skyway-peerjs",
+  "name": "peerjs-firebase",
   "version": "0.4.0",
-  "description": "This branch is a customized version of PeerJS for NTT Communications's WebRTC platform SkyWay.",
+  "description": "Forked from skyway-peerjs for firebase",
   "homepage": "http://skyway.io/en",
   "main": "./lib/peer.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nttcom/peerjs.git"
+    "url": "git://github.com/kksharma1618/peerjs.git"
   },
   "bugs": {
-    "url": "https://github.com/nttcom/peerjs/issues"
+    "url": "https://github.com/kksharma1618/peerjs/issues"
   },
   "author": "Michelle Bu, Eric Zhang, NTT Communications",
   "license": "MIT",
@@ -30,5 +30,6 @@
     "eventemitter3": "0.1.5",
     "js-binarypack": "0.0.9",
     "reliable": "git+https://github.com/michelle/reliable.git"
-  }
+  },
+  "private": true
 }
